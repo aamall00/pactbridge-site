@@ -1,7 +1,5 @@
 {
   "routes": [
-    { "route": "/insureremind", "redirect": "/#insureremind", "statusCode": 301 },
-    { "route": "/insureremind/", "redirect": "/#insureremind", "statusCode": 301 },
     { "route": "/login", "redirect": "https://app.pactbridge.in/", "statusCode": 302 }
   ],
   "responseOverrides": {

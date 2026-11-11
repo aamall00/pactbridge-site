@@ -7,7 +7,8 @@ Static website for **pactbridge.in**, hosted on Azure Static Web Apps (Free tier
 | `site/index.html` | PactBridge landing page (self-contained; its `#insureremind` section links to `https://app.pactbridge.in/`) |
 | `site/styles.css` | Styles for the 404 page |
 | `site/404.html` | Not-found page |
-| `site/staticwebapp.config.json` | Redirects (`/insureremind` → `/#insureremind`), 404 override, security headers |
+| `site/insureremind/index.html` | Forwards `/insureremind` to `/#insureremind` (meta refresh + JS) |
+| `site/staticwebapp.config.json` | `/login` redirect, 404 override, security headers |
 
 Add a product page by creating `site/<product>/index.html` and linking it from `site/index.html`.
 
